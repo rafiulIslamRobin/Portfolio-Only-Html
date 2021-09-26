@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+</head>
+<body>
+    <h1 style=" color: coral;">Learn With Rafiul Islam</h1>
+    <img src="/images/Profile.jpg" width="300px" height="350px" alt="">
+    <h2 style="color: darkmagenta;">MY Name is Rafiul Islam</h2>
+    <h3>rafiul15-2265@diu.edu.bd</h3>
+    <h3>01701-729512</h3>
+    <h3>Daffodil International University in CSE</h3>
+    <h3>Pabna Bangladesh</h3>
+  
+    <h2 style="color: crimson ; text-align: center;">Description</h2>
+    <p>My Home Town Pabna.My Father is a School Teacher and my mother is a School Techer..my Village Miapur Hajipara.I Completed my Hsc Miapur High school And College . I study at Daffodil International University in cse .....I live in Dhaka at Dattapara Ashulia Model Town ...My Hobby Play Cricket and play Football,,,I like walking alone</p>
+    <a href="https://www.facebook.com/profile.php?id=100008632635534">Facebook</a>
+    <hr style=" height: 3px;">
+    
+
+    <h2 style="color: crimson;">My Skills</h2>
+    <ul>
+        <li>Problem Solver</li>
+        <li>Android Developer</li>
+        <li>Full stack developer</li>
+    </ul>
+    <h2 style="color: crimson;">My Hobby</h2>
+    <ol>
+        <li>Play Cricket</li>
+        <li>Play Football</li>
+        <li>web developing</li>
+    </ol>
+
+    <table  style="width: 400px; text-align: center; " border="1">
+        <h1 style="color: black ">My Friends</h1>
+        <tr>
+          <th>Name</th>
+          <th>ID</th>
+          <th>Section</th>
+        </tr>
+        <tr>
+          <td>Rafiul Islam</td>
+          <td>183-15-2265</td>
+          <td>PC-C</td>
+        </tr>
+        <tr>
+          <td>Rakibul Islam</td>
+          <td>183-15-2264</td>
+          <td>PC-C</td>
+        </tr>
+        <tr>
+            <td>Sumi Khatun</td>
+            <td>182-13-1234</td>
+            <td>PC-C</td>
+          </tr>
+          <tr>
+            <td>Raju Khan</td>
+            <td>184-13-2294</td>
+            <td>PC-C</td>
+          </tr>
+      </table> 
+        <br><br>
+            <table  align="center" border="1">
+                <tr>
+                    <th colspan="3"><h1 style="color: darkorange;">Feedback</h1></th>
+                </tr>
+             <tr>
+                 <td> <label for="fname">Enter Your name:</label></td>
+                 <td><input type="text" id="fname" name="fname" size="50" placeholder="Enter Your Name"></td>
+                 
+             </tr>
+             <br>
+             <tr>
+                 <td><label for="email">Enter Your Email</label></td>
+                 <td> <input type="text" id="email" name="Email" size="50" placeholder="Enter Your Email Address"></td>
+             </tr>
+             <br>
+             <tr>
+                 <td> <label for="datemax">Birthday Date</label></td>
+                 <td> <input type="date" id="datemax" name="datemax" max="1971-10-30"></td>
+             </tr>
+             <br>
+             <tr>
+                 <td> <label for="pnumber">Phone Number</label></td>
+                 <td> <input type="text" placeholder="Enter Your Phone Number "></td>
+
+             </tr>
+             <br>
+             <tr>
+                 <td><input type="submit" value="Submit" style="color: darkorange;"></td>
+             </tr>
+
+
+            </table>   
+</body>
+</html>
